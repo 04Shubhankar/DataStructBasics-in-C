@@ -14,7 +14,7 @@ int main(){
     scanf("%d",&num);
 
     // Create first Node 
-    first = (struct node*)malloc(sizeof(struct node));
+    first =  malloc(sizeof(struct node));
     printf("Enter the data for the first node ");
     scanf("%d",&first->data);
     first->next = NULL;
@@ -22,7 +22,7 @@ int main(){
 
     // Create remaining nodes
     for(int i=1; i<num; i++){
-        current = (struct node*)malloc(sizeof(struct node));
+        current =  malloc(sizeof(struct node));
         printf("Enter the data for the %d node ",i+1);
         scanf("%d",&current->data);
         current->next = NULL;
