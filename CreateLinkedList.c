@@ -1,4 +1,4 @@
-// Creation of a Linked List 
+// Creation of a Linked List in C
 
 #include<stdio.h>
 #include<stdlib.h>
